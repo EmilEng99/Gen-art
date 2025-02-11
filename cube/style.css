@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider-container {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#radiusSlider {
+    writing-mode: vertical-lr;
+    width: 10px;
+    height: 150px;
+    margin: 10px 0;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
