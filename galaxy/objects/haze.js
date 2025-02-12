@@ -4,8 +4,8 @@ import {
   HAZE_MAX,
   HAZE_MIN,
   HAZE_OPACITY,
-} from "./config/renderConfig.js";
-import { clamp } from "./utils.js";
+} from "../config/renderConfig.js";
+import { clamp } from "../utils.js";
 
 const hazeTexture = new THREE.TextureLoader().load(
   "./resources/feathered60.png"

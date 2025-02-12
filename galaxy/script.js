@@ -8,8 +8,6 @@ import {
   BLOOM_PARAMS,
   OVERLAY_LAYER,
 } from "./config/renderConfig.js";
-import { Star } from "./star.js";
-import { gaussianRandom, spiral } from "./utils.js";
 
 // Rendering
 
@@ -19,7 +17,7 @@ import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
 import { UnrealBloomPass } from "three/addons/postprocessing/UnrealBloomPass.js";
 
 import { ShaderPass } from "three/addons/postprocessing/ShaderPass.js";
-import { Galaxy } from "./galaxy.js";
+import { Galaxy } from "./objects/galaxy.js";
 
 let canvas,
   renderer,
